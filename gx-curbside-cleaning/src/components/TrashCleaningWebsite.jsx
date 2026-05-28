@@ -64,10 +64,24 @@ export default function TrashCleaningWebsite() {
               </a>
 
               <a
+                href="sms:7623946145"
+                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
+              >
+                Text Gavin
+              </a>
+
+              <a
                 href="tel:4233107764"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
                 Call Xander
+              </a>
+
+              <a
+                href="sms:4233107764"
+                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
+              >
+                Text Xander
               </a>
 
             </div>
@@ -309,10 +323,24 @@ export default function TrashCleaningWebsite() {
               </a>
 
               <a
+                href="sms:7623946145"
+                className="border-2 border-white px-6 py-4 rounded-2xl font-black text-center hover:bg-white hover:text-blue-900 transition"
+              >
+                Text Gavin
+              </a>
+
+              <a
                 href="tel:4233107764"
                 className="border-2 border-white px-6 py-4 rounded-2xl font-black text-center hover:bg-white hover:text-blue-900 transition"
               >
                 Call Xander
+              </a>
+
+              <a
+                href="sms:4233107764"
+                className="border-2 border-white px-6 py-4 rounded-2xl font-black text-center hover:bg-white hover:text-blue-900 transition"
+              >
+                Text Xander
               </a>
 
               <a
