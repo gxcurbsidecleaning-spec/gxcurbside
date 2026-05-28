@@ -22,7 +22,7 @@ export default function TrashCleaningWebsite() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden">
 
-      {/* Hero */}
+      {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-950 via-blue-800 to-blue-500 text-white">
 
         <div className="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center"></div>
@@ -30,9 +30,12 @@ export default function TrashCleaningWebsite() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
 
           <div>
+
             <h1 className="text-6xl md:text-7xl font-black leading-tight tracking-tight">
               GX CURBSIDE
-              <span className="block text-blue-300">CLEANING</span>
+              <span className="block text-blue-300">
+                CLEANING
+              </span>
             </h1>
 
             <p className="mt-6 text-2xl font-semibold text-blue-100">
@@ -40,7 +43,8 @@ export default function TrashCleaningWebsite() {
             </p>
 
             <p className="mt-6 text-lg text-gray-200 leading-relaxed max-w-xl">
-              Professional trash can cleaning, pavement powerwashing, and window cleaning services across North Georgia.
+              Professional trash can cleaning, pavement powerwashing,
+              and window cleaning services across North Georgia.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-10">
@@ -94,11 +98,12 @@ export default function TrashCleaningWebsite() {
 
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
-      {/* Services */}
+      {/* SERVICES */}
       <section className="py-24 px-6 bg-gray-50">
 
         <div className="max-w-6xl mx-auto text-center">
@@ -133,13 +138,14 @@ export default function TrashCleaningWebsite() {
                 </p>
 
               </div>
+
             ))}
 
           </div>
         </div>
       </section>
 
-      {/* Booking Section */}
+      {/* BOOKING */}
       <section
         id="booking"
         className="py-24 px-6 bg-gradient-to-r from-blue-950 to-blue-700 text-white"
@@ -163,25 +169,28 @@ export default function TrashCleaningWebsite() {
 
             <form className="grid md:grid-cols-2 gap-6">
 
+              {/* NAME */}
               <input
                 type="text"
                 placeholder="Full Name"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
               />
 
+              {/* PHONE */}
               <input
                 type="tel"
                 placeholder="Phone Number"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
               />
 
+              {/* ADDRESS */}
               <input
                 type="text"
                 placeholder="Address"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
               />
 
-              {/* Multiple Services */}
+              {/* SERVICES */}
               <div className="border border-gray-300 rounded-2xl px-5 py-4 md:col-span-2">
 
                 <p className="font-bold text-lg mb-4">
@@ -208,17 +217,29 @@ export default function TrashCleaningWebsite() {
                 </div>
               </div>
 
-              <input
-                type="date"
-                className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
-              />
+              {/* DATE + TIME */}
+              <div className="grid md:grid-cols-2 gap-6 md:col-span-2">
 
+                <input
+                  type="date"
+                  className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
+                />
+
+                <input
+                  type="time"
+                  className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
+                />
+
+              </div>
+
+              {/* DETAILS */}
               <textarea
                 placeholder="Additional Details"
                 rows="5"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
               ></textarea>
 
+              {/* BUTTON */}
               <button
                 type="submit"
                 className="md:col-span-2 bg-blue-700 hover:bg-blue-800 transition text-white py-5 rounded-2xl font-black text-xl shadow-xl"
@@ -231,7 +252,7 @@ export default function TrashCleaningWebsite() {
         </div>
       </section>
 
-      {/* Contact */}
+      {/* CONTACT */}
       <section className="py-20 px-6 bg-white">
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -243,7 +264,8 @@ export default function TrashCleaningWebsite() {
             </h2>
 
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-              Ready to get your property cleaned? Reach out today and schedule your service.
+              Ready to get your property cleaned?
+              Reach out today and schedule your service.
             </p>
 
             <div className="mt-10 space-y-6 text-xl font-semibold">
@@ -270,7 +292,9 @@ export default function TrashCleaningWebsite() {
             </h3>
 
             <p className="mt-6 text-blue-100 text-lg leading-relaxed">
-              We help keep homes, neighborhoods, and businesses clean with reliable exterior cleaning services.
+              We help keep homes, neighborhoods,
+              and businesses clean with reliable
+              exterior cleaning services.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -290,6 +314,7 @@ export default function TrashCleaningWebsite() {
               </a>
 
             </div>
+
           </div>
         </div>
       </section>
