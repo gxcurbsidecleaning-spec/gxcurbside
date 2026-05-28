@@ -57,10 +57,10 @@ export default function TrashCleaningWebsite() {
               </a>
 
               <a
-                href="tel:7623946145"
+                href="sms:7623946145"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
-                Call Us
+                Text Us
               </a>
 
             </div>
@@ -169,21 +169,18 @@ export default function TrashCleaningWebsite() {
 
             <form className="grid md:grid-cols-2 gap-6">
 
-              {/* NAME */}
               <input
                 type="text"
                 placeholder="Full Name"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
               />
 
-              {/* PHONE */}
               <input
                 type="tel"
                 placeholder="Phone Number"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500"
               />
 
-              {/* ADDRESS */}
               <input
                 type="text"
                 placeholder="Address"
@@ -232,14 +229,12 @@ export default function TrashCleaningWebsite() {
 
               </div>
 
-              {/* DETAILS */}
               <textarea
                 placeholder="Additional Details"
                 rows="5"
                 className="border border-gray-300 rounded-2xl px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
               ></textarea>
 
-              {/* BUTTON */}
               <button
                 type="submit"
                 className="md:col-span-2 bg-blue-700 hover:bg-blue-800 transition text-white py-5 rounded-2xl font-black text-xl shadow-xl"
@@ -300,10 +295,10 @@ export default function TrashCleaningWebsite() {
             <div className="mt-10 flex flex-wrap gap-4">
 
               <a
-                href="tel:7623946145"
+                href="sms:7623946145"
                 className="bg-white text-blue-900 px-6 py-4 rounded-2xl font-black hover:scale-105 transition"
               >
-                Call Now
+                Text Us
               </a>
 
               <a
@@ -318,6 +313,7 @@ export default function TrashCleaningWebsite() {
           </div>
         </div>
       </section>
+
     </div>
   )
 }
