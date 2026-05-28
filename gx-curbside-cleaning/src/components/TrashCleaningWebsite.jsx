@@ -60,14 +60,14 @@ export default function TrashCleaningWebsite() {
                 href="tel:7623946145"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
-                Call Us
+                Call Gavin
               </a>
 
               <a
-                href="sms:7623946145"
+                href="tel:4233107764"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
-                Text Us
+                Call Xander
               </a>
 
             </div>
@@ -299,25 +299,25 @@ export default function TrashCleaningWebsite() {
               exterior cleaning services.
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 grid gap-4">
 
               <a
                 href="tel:7623946145"
-                className="bg-white text-blue-900 px-6 py-4 rounded-2xl font-black hover:scale-105 transition"
+                className="bg-white text-blue-900 px-6 py-4 rounded-2xl font-black text-center hover:scale-105 transition"
               >
-                Call Us
+                Call Gavin
               </a>
 
               <a
-                href="sms:7623946145"
-                className="border-2 border-white px-6 py-4 rounded-2xl font-black hover:bg-white hover:text-blue-900 transition"
+                href="tel:4233107764"
+                className="border-2 border-white px-6 py-4 rounded-2xl font-black text-center hover:bg-white hover:text-blue-900 transition"
               >
-                Text Us
+                Call Xander
               </a>
 
               <a
                 href="#booking"
-                className="border-2 border-white px-6 py-4 rounded-2xl font-black hover:bg-white hover:text-blue-900 transition"
+                className="border-2 border-white px-6 py-4 rounded-2xl font-black text-center hover:bg-white hover:text-blue-900 transition"
               >
                 Book Service
               </a>
