@@ -57,31 +57,10 @@ export default function TrashCleaningWebsite() {
               </a>
 
               <a
-                href="tel:7623946145"
+                href="#contact"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
-                Call Gavin
-              </a>
-
-              <a
-                href="sms:7623946145"
-                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
-              >
-                Text Gavin
-              </a>
-
-              <a
-                href="tel:4233107764"
-                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
-              >
-                Call Xander
-              </a>
-
-              <a
-                href="sms:4233107764"
-                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
-              >
-                Text Xander
+                Contact Us
               </a>
 
             </div>
@@ -269,7 +248,7 @@ export default function TrashCleaningWebsite() {
       </section>
 
       {/* CONTACT */}
-      <section className="py-20 px-6 bg-white">
+      <section id="contact" className="py-20 px-6 bg-white">
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
