@@ -57,6 +57,13 @@ export default function TrashCleaningWebsite() {
               </a>
 
               <a
+                href="tel:7623946145"
+                className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
+              >
+                Call Us
+              </a>
+
+              <a
                 href="sms:7623946145"
                 className="border-2 border-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-blue-900 transition"
               >
@@ -295,8 +302,15 @@ export default function TrashCleaningWebsite() {
             <div className="mt-10 flex flex-wrap gap-4">
 
               <a
-                href="sms:7623946145"
+                href="tel:7623946145"
                 className="bg-white text-blue-900 px-6 py-4 rounded-2xl font-black hover:scale-105 transition"
+              >
+                Call Us
+              </a>
+
+              <a
+                href="sms:7623946145"
+                className="border-2 border-white px-6 py-4 rounded-2xl font-black hover:bg-white hover:text-blue-900 transition"
               >
                 Text Us
               </a>
